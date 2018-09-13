@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Gabriel Bogo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "A future Data Scientist"
   location         : "Somewhere"
   email            :
   links:

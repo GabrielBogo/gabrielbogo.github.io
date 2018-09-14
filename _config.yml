@@ -101,14 +101,11 @@ analytics:
 # Site Author
 author:
   name             : "Gabriel Bogo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A future Data Scientist"
-  location         : "Somewhere"
+  avatar           : "https://avatars0.githubusercontent.com/u/7615048?s=460&v=4"
+  bio              : "Creating value with data analytics"
+  location         : "Vancouver"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -282,6 +279,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true

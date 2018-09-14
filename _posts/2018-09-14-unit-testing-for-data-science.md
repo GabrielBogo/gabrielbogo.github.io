@@ -1,4 +1,3 @@
-# Unit Testing for Data Science
 #### by Gabriel Bogo  <br><br>
 
 You finally finished the project.  

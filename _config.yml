@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gabriel Bogo's Personal Website"
-title_separator          : "-"
+title                    : "Gabriel Bogo | Data Scientist"
+title_separator          : "|"
 name                     : "Gabriel Bogo"
-description              : "Here I'll publish my posts"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Gabriel Bogo's data science portfolio and professional archive"
+url                      : "https://www.gabrielbogo.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/default_img.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -101,23 +101,29 @@ analytics:
 # Site Author
 author:
   name             : "Gabriel Bogo"
-  avatar           : "https://avatars0.githubusercontent.com/u/7615048?s=460&v=4"
-  bio              : "Creating value with data analytics"
-  location         : "Vancouver"
+  avatar           : "/assets/profile.jpg"
+  bio              : "#mechanicalengineer #datascientist #businessanalyst #valueintheintersection #lifelonglearner #AI #innovation"
+  location         : "Vancouver, Canada"
   email            :
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url:  "https://www.linkedin.com/in/gabrielbogo/"
+    - label: "GitHub"
+      icon: "fab fa-github-square"
+      url: "https://github.com/GabrielBogo"
+    - label: "Stack Overflow"
+      icon: "fab fa-stack-overflow"
+      url: "https://stackoverflow.com/users/6362464/gabriel-bogo"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/gabriel.bogo.3"
+    - label: "Kaggle"
+      icon: "fab fa-kaggle"
+      url: "https://www.kaggle.com/gabrielbogo"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -212,7 +218,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "America/Vancouver" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
